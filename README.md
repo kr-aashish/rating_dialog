@@ -7,17 +7,20 @@ A beautiful and customizable Star Rating Dialog package for Flutter
 ![](https://github.com/nemoryoliver/rating_dialog/blob/master/images/2.gif)
 
 ### Import the rating_dialog package
+
 To use the rating_dialog plugin, follow the [plugin installation instructions](https://pub.dartlang.org/packages/rating_dialog#pub-pkg-tab-installing).
 
 ### Use the package
 
 Add the following import to your Dart code:
+
 ```dart
 import 'package:rating_dialog/rating_dialog.dart';
 ```
 
 We use the built in showDialog function to show our Rating Dialog
-``` dart
+
+```dart
 showDialog(
     context: context,
     barrierDismissible: true, // set to false if you want to force a rating
@@ -55,3 +58,5 @@ for a complete sample app using the rating_dialog package.
 
 Please file [issues](https://github.com/nemoryoliver/rating_dialog/issues/new)
 to send feedback or report a bug. Thank you!
+
+"No issues exist!"
